@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnRegister.setOnClickListener(v -> startActivity(new Intent(this, RegisterActivity.class)));
+
 
         btnGoogleLogin.setOnClickListener(v ->
                 Toast.makeText(this, "Iniciar sesión con Google (pendiente)", Toast.LENGTH_SHORT).show()
