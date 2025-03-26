@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">prueba1</string>
+    <string name="app_name">Proyect1</string>
+    <string name="pasion">Cocina con pasión, comparte con amor</string>
+    <string name="email">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="iniciar">Iniciar Sesion</string>
+    <string name="registar">Confirma Contraseña</string>
+    <string name="CrearCuenta">Crear Cuenta</string>
 </resources>
