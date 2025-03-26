@@ -70,15 +70,15 @@
                 android:textColor="#FFF"
                 android:layout_marginTop="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/olvidaste"
-            android:textSize="25dp"
-            android:textColor="#666"
-            android:layout_marginTop="10dp"
-            android:clickable="true"
-            android:focusable="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/olvidaste"
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:focusable="true"/>
 
             <Button
                 android:id="@+id/btnGoogleLogin"

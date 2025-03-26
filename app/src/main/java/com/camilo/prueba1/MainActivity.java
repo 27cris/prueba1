@@ -3,6 +3,7 @@ package com.camilo.prueba1;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -34,7 +35,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        btnRegister.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, Interfaz2.class);
+            startActivity(intent);
+        });
 
         btnGoogleLogin.setOnClickListener(v ->
                 Toast.makeText(this, "Iniciar sesión con Google (pendiente)", Toast.LENGTH_SHORT).show()
