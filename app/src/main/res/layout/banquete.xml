@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Botón de regreso -->
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/atras"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Volver"
+            android:scaleType="fitCenter"/>
+
+
+        <!-- Título del banquete -->
+        <TextView
+            android:id="@+id/tv_banquete_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Festín del Caribe"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"/>
+
+        <!-- Imagen del banquete -->
+        <ImageView
+            android:id="@+id/img_banquete"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banquete" />
+
+        <!-- Sección de likes y compartir -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_like"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/corazon"
+                android:contentDescription="Like" />
+
+            <TextView
+                android:id="@+id/tv_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="350"
+                android:textSize="18sp"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/btn_comit"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/comentarios"
+                android:scaleType="fitCenter"
+                android:contentDescription="comentar" />
+
+            <ImageButton
+                android:id="@+id/btn_share"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/compartir"
+                android:scaleType="fitCenter"
+                android:contentDescription="Compartir" />
+        </LinearLayout>
+
+        <!-- Sección de platillos -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/platillos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView android:text="@string/entradas" android:textStyle="bold"/>
+                <TextView android:text="@string/ceviche_de_camar_n_arepas_de_choclo"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/platos_principales" android:textStyle="bold"/>
+                <TextView android:text="@string/pargo_frito_arroz_con_coco"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/acompa_amientos" android:textStyle="bold"/>
+                <TextView android:text="@string/patacones_ensalada_tropical"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/postres" android:textStyle="bold"/>
+                <TextView android:text="@string/flan_de_coco_dulce_de_papaya"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/bebidas" android:textStyle="bold"/>
+                <TextView android:text="@string/limonada_de_coco_jugo_de_maracuy"/>
+            </TableRow>
+        </TableLayout>
+
+        <!-- Detalle de un platillo -->
+        <TextView
+            android:id="@+id/tv_platillo_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pargo frito"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"/>
+
+        <!-- Lista de ingredientes -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="8dp">
+
+            <TextView android:text="@string/pargo_rojo"/>
+            <TextView android:text="@string/ajo"/>
+            <TextView android:text="@string/jugo_de_lim_n"/>
+            <TextView android:text="@string/harina_de_ma_z"/>
+            <TextView android:text="@string/aceite_para_fre_r"/>
+            <TextView android:text="@string/sal_y_pimienta"/>
+        </GridLayout>
+
+        <!-- Sección de preparación -->
+        <TextView
+            android:id="@+id/acocinar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A cocinar:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:text="@string/_1_limpia_el_pargo_y_haz_cortes_en_los_lados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/_2_marina_con_ajo_jugo_de_lim_n_sal_y_pimienta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/_3_p_salo_por_harina_de_ma_z_para_darle_una_costra_crujiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/_4_fr_e_en_abundante_aceite_caliente_hasta_que_est_dorado_y_crujiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+        <!-- Detalle de un platillo -->
+        <TextView
+            android:id="@+id/tv_platillo_nombre2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ceviche de camaron"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"/>
+
+        <!-- Lista de ingredientes -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="8dp">
+
+            <TextView android:text="@string/ceviche_rojo"/>
+            <TextView android:text="• Ajo"/>
+            <TextView android:text="• Jugo de limón"/>
+            <TextView android:text="• Harina de maíz"/>
+            <TextView android:text="• Aceite para freír"/>
+            <TextView android:text="• Sal y pimienta"/>
+        </GridLayout>
+
+        <!-- Sección de preparación -->
+        <TextView
+            android:id="@+id/aco_cinar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A cocinar:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:text="1. Limpia el pargo y haz cortes en los lados."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="2. Marina con ajo, jugo de limón, sal y pimienta."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="3. Pásalo por harina de maíz para darle una costra crujiente."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="4. Fríe en abundante aceite caliente hasta que esté dorado y crujiente."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>

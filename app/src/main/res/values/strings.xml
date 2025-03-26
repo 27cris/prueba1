@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">prueba1</string>
+    <string name="platillos">Platillos:</string>
+    <string name="entradas">Entradas</string>
+    <string name="ceviche_de_camar_n_arepas_de_choclo">• Ceviche de camarón • Arepas de choclo</string>
+    <string name="platos_principales">Platos Principales</string>
+    <string name="pargo_frito_arroz_con_coco">• Pargo frito • Arroz con coco</string>
+    <string name="acompa_amientos">Acompañamientos</string>
+    <string name="patacones_ensalada_tropical">• Patacones • Ensalada tropical</string>
+    <string name="postres">Postres</string>
+    <string name="flan_de_coco_dulce_de_papaya">• Flan de coco • Dulce de papaya</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="limonada_de_coco_jugo_de_maracuy">• Limonada de coco • Jugo de maracuyá</string>
+    <string name="pargo_rojo">• Pargo rojo</string>
+    <string name="ajo">• Ajo</string>
+    <string name="jugo_de_lim_n">• Jugo de limón</string>
+    <string name="harina_de_ma_z">• Harina de maíz</string>
+    <string name="aceite_para_fre_r">• Aceite para freír</string>
+    <string name="sal_y_pimienta">• Sal y pimienta</string>
+    <string name="_1_limpia_el_pargo_y_haz_cortes_en_los_lados">1. Limpia el pargo y haz cortes en los lados.</string>
+    <string name="_2_marina_con_ajo_jugo_de_lim_n_sal_y_pimienta">2. Marina con ajo, jugo de limón, sal y pimienta.</string>
+    <string name="_3_p_salo_por_harina_de_ma_z_para_darle_una_costra_crujiente">3. Pásalo por harina de maíz para darle una costra crujiente.</string>
+    <string name="_4_fr_e_en_abundante_aceite_caliente_hasta_que_est_dorado_y_crujiente">4. Fríe en abundante aceite caliente hasta que esté dorado y crujiente.</string>
+    <string name="ceviche_rojo">• Ceviche rojo</string>
 </resources>
