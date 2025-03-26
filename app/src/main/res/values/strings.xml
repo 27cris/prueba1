@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">iniciodesecion</string>
     <string name="lema">Cocina con pasión, comparte con amor</string>
     <string name="inicio">Iniciar Sesion</string>
@@ -6,4 +7,13 @@
     <string name="olvidaste">¿Olvidaste la contraseña?</string>
     <string name="sesion">Iniciar sesión con Google</string>
     <string name="politicas">Condiciones de Servicio y Políticas de Privacidad</string>
+=======
+    <string name="app_name">Proyect1</string>
+    <string name="pasion">Cocina con pasión, comparte con amor</string>
+    <string name="email">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="iniciar">Iniciar Sesion</string>
+    <string name="registar">Confirma Contraseña</string>
+    <string name="CrearCuenta">Crear Cuenta</string>
+>>>>>>> yuliana
 </resources>
