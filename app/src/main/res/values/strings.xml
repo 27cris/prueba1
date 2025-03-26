@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">prueba1</string>
+    <string name="pregunta">¿Qué te gustaría el día de hoy?..</string>
 </resources>
