@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">prueba1</string>
+    <string name="app_name">iniciodesecion</string>
+    <string name="lema">Cocina con pasión, comparte con amor</string>
+    <string name="inicio">Iniciar Sesion</string>
+    <string name="registro">Registrarse</string>
+    <string name="olvidaste">¿Olvidaste la contraseña?</string>
+    <string name="sesion">Iniciar sesión con Google</string>
+    <string name="politicas">Condiciones de Servicio y Políticas de Privacidad</string>
 </resources>
