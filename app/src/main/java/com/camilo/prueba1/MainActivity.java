@@ -41,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnBanquetes.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, Banquetes.class);
+            Intent intent = new Intent(MainActivity.this, Banquete.class);
             startActivity(intent);
         });
 
 
         btncategorias.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, Categorias.class);
+            Intent intent = new Intent(MainActivity.this, Categoria.class);
             startActivity(intent);
         });
 
@@ -61,15 +61,15 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
         imgreceta.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, Receta.class);
+            Intent intent = new Intent(MainActivity.this, receta.class);
             startActivity(intent);
         });
         imgreceta2.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, Receta2.class);
+            Intent intent = new Intent(MainActivity.this, receta2.class);
             startActivity(intent);
         });
         imgreceta3.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, Receta3.class);
+            Intent intent = new Intent(MainActivity.this, receta3.class);
             startActivity(intent);
         });
 
